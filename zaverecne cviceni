@@ -1,0 +1,68 @@
+---- Práce s tabulkou, funkcemi podmíněné formátování -----------
+
+1. Z datové oblasti vytvořte tabulku s názvem: data
+2. Dopočtěte sloupce:
+	- Rok (z Datum)
+	- Měsíc (z Datum)
+	- Počet dnů od kontroly (Dnes - Datum)
+
+3. Barevně (červenou barvou) odlište pokuty vyšší 10000
+4. Barevně (jakoukoliv barvou) odlište duplicitní hodnoty ve sloupci Firma
+
+5. Dopočítejte do buněk:
+	K2 = Sumu pokut ve Město Mladá Boleslav
+	K3 = Počet kontrol se závadou v město Olomouc
+	K4 = Počet kontrol bez závady v město Olomouc
+	K5 = Podíl závadných kontrol v město Olomouc
+	K6 = Průměrná výše pokuty v roce 2025 v kraj Moravskoslezský kraj
+
+6. Ve volném prostoru si vytvořte seznam s hodnotami:
+	2022
+	2023
+	2024
+	2025
+7. Spočítejte sumu pokut dle jednotlivých let
+8. Vytvořte sloupcový graf zobrazující sumu pokut v jednotlivých letech
+
+
+	
+----- Práce s kontingenční tabulkou, kontingenčním grafem -----------
+
+9. Na nový list (pojmenujte jako "report") vytvořte kontingenční tabulku a tu pojmenujte: kraje
+11. Kontingenční tabulku filtrujte na Stav = "se závadou"
+10. Vytvořte kontingenční tabulku zobrazující dle krajů a měst (tj. kraje a rozbalujeme na města)
+	- počet kontrol (spočítáte jako počet z Datum)
+	- sumu Pokuta
+12. Na list report vložte další kontingenční tabulku a tu pojmenujte: firmy
+13. Sestavte kontingenční tabulku tak, aby obsahovala informaci o
+	- počet kontrol (spočítáte jako počet z Datum)
+	- počet kontrol s pokutou
+	- sumu z Pokuta
+	- podíl firmy na celkových vybraných pokutách
+
+14. Na nový list (pojmenujte jako report2) vytvořte kontingenční tabulku a tu pojmenujte: obdobi
+15. Vytvořte kontingenční tabulku zobrazující počet kontrol dle rok, měsíc
+16. Přidejte průřez nad sloupcem Kraj
+17. Přidejte průřez se sloupcem Stav
+
+18. Na nový list (pojmenujte jako grafy) vytvořte kontingenční tabulku a tu pojmenujte: roky
+19. Vytvořte tabulku zobrazující počet kontrol dle Rok
+20. Z kontingenční tabulky vytvořte kontingenční graf
+21. Kontingenční graf zkopírujte na list report2
+22. Ke kontingenčnímu grafu připojte průřezy z listu report2
+
+23. Na list graf přidejte další kontingenční tabulku
+24. Tabulku sestavte tak, aby obsahovala počet jednotlivých stavů (se závadou vs. bez závad)
+25. Z kontingenční tabulky vytvořte koláčový graf
+26. Koláčový graf zkopírujte na list report2 a připojte k němu všechny průřezy z listu
+
+27. Skryjte list grafy
+28. Zelenou barvou odlište názvy listů: report, report2
+
+--------- Bonus ------------
+
+29. Jakýmkoliv způsobem zjistěte:
+- Ve kterém městě byla v roce 2025 nejčastěji zjištěna závada: Chybějící kategorizace rizikových prací
+- Ve které firmě bylo provedeno největší počet kontrol
+- Ve kterém kraji je nejvyšší podíl kontrol se závadou
+
